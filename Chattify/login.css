@@ -1,0 +1,145 @@
+  body{
+             
+          background-color: black;
+          color: white;
+          font-family: sans-serif;
+      }
+      @media only screen and (max-width: 600px){
+          body{
+              background-color: white;
+              color: black;
+          }
+      }
+
+      .chat{
+          margin-top: 3%;
+          text-align: center;
+         
+      }
+      .me-up{
+          width: 32%;
+          height: 50px;    
+          border: none;
+          
+          border-radius: 8px;
+          padding-left: 8px;
+          background-color: whitesmoke;
+          color: black;
+      }
+      .me-up1{
+          width: 30%;
+          height: 50px;    
+          border: none;
+          border-bottom: 4px solid darkslateblue;
+          border-radius: 8px;
+          padding-left: 8px;
+          background-color: whitesmoke;
+          color: black;
+      }
+      .me-up3{
+          width: 5px;
+          height: 5px;    
+          
+      }
+       .me-up2{
+          width: 30%;
+          height: 50px;    
+          border: none;
+          border-bottom: 4px solid darkslateblue;
+          border-radius: 8px;
+          padding-left: 8px;
+          background-color: whitesmoke;
+          color: black;
+      }
+      form a{
+          text-decoration: none;
+      }
+      .chat h1{
+          font-size: 50px;
+          padding-bottom: none;
+      }
+      .chat p{
+          font-size: 18px;
+      }
+      .up-me{
+          width: 30%;
+          height: 50px;
+          background-color: darkslateblue;
+          color: white;
+          border-radius: 8px;
+          border: none;
+          cursor: pointer;
+          -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+          
+      }
+      .up-me:hover{
+          background-color: transparent;
+          box-shadow: 0px 0px 20px darkslateblue;
+         
+      }
+     img{
+         float: right;
+         width: 30%;
+     }
+     @media screen and (max-width: 800px){
+       .chat{
+        border-radius: 0px;
+       }
+       .name{
+        display: none;
+       }
+       .all{
+        margin-left: 2px;
+       }
+     }
+.chat{
+    background-color: white;
+    width: 550px;
+    height: 380px;
+    margin-left: 50px;
+    color: black;
+    padding: 2% 10px;
+    border: none;
+    border-radius: 0px 0px 150px 0px;
+    z-index: 1;
+}
+.all{
+    display: flex;
+    margin-left: 10%;
+}
+.name{
+    background-color: #007bff;
+    width: 550px;
+    height: 380px;
+    color: white;
+    padding: 2% 10px;
+    border: none;
+    margin-top: 36px;
+    margin-left: -140px;
+    text-align: center;
+}
+.name h1{
+    margin-left: 120px;
+}
+.name p{
+    margin-left: 120px;
+}
+.chat form{
+    margin-top: 50px;
+}
+.chat form input{
+    width: 400px;
+    border-bottom: 4px solid #007bff;
+}
+.up-me{
+    background-color: #007bff;
+}
+a{
+    color: #007bff;
+}
+.up-me:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 20px #007bff;
+    color: black;
+}

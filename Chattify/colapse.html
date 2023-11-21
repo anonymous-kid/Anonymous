@@ -1,0 +1,124 @@
+<style>
+.spy{
+padding-top: 50px; hiehgt: 500px; color: #fff; background-color: #1E88E5;}
+</style>
+<div class="spy">
+<input type="radio" name="optradio">Option 1</input>
+<input type="radio" name="optradio">Option 2</input>
+
+<label for="sel2">Mutiple select list (hold shift to select more than one):</label>
+      <select multiple class="form-control" id="sel2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+<label for="sel1">Tutorial</label>
+<select class="form-control" id="sel1">
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<select>
+</label>
+</div>
+<form>
+  <select id="country" name="country">
+    <option value="usa">Australia</option>
+    <option value="usa">Canada</option>
+    <option value="usa">USA</option>
+  </select>
+  <style>
+    .tooltip-text .tooltip{
+   background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  padding: 5px;
+  color: white;
+  width: 70px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  visibility: hidden;
+    }
+    .tooltip-text{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      border-bottom: 2px dotted black;
+      width: 7%;
+      cursor: pointer;
+    }
+     .tooltip-text:hover .tooltip{
+      visibility: visible;
+    }
+    wy:hover{
+      border: 2px solid black;
+    }
+    .p1{
+      background-color: red;
+      width: 90px;
+      margin: 0px;
+    }
+  </style>
+  <br><br> <br><br><br><br><div class="tooltip-text">Hover me</div><div class="tooltip">Welcome</div><br><br><br><br><br><br><br><br>
+  <div class="wy" style="border: 1px solid black; width: 10%; height: 100px" class="border-image"><img src="Images/Profile1.png" alt="#" width="100%;"><br><div style="text-align: center;">Adamu Saidu<br>Computer Operator/Printer</div></div>
+  <p class="p1">Hello</p>
+  <br><br><br><br><br>
+  <h2 style="background-color: green; width: 20%; height: 20%; text-align: center;" id="demo"></h2>
+  <script>
+    var day;
+    switch (new Date().getDay()){
+      case 0:
+      day="20th November, 2022";
+      break;
+      case 1:
+      day="21<sup>st</sup> November, 2022";
+      break;
+      case 2:
+      day="22nd November, 2022";
+      break
+      case 3:
+      day="23<sup>rd</sup><br> November, 2022";
+      break;
+      case 4:
+      day="24th November, 2022";
+      break;
+      case 5:
+      day="25th November, 2022";
+      break;
+      case 6:
+      day="26th November, 2022";
+      break;
+    }
+    document.getElementById("demo").innerHTML="" + day;
+  </script>
+
+<input class="type" onclick="myFunction()" id="demo" type="text" name="Search" placeholder="Search...">
+<script>
+  function myFunction() {
+      var x = document.getElementById("demo");
+      x.style.borderRadius = "10px";
+      x.style.width="200px";
+      x.style.boxShadow="0px 0px 20px darkslateblue";           
+        }
+  </script>
+<style>
+.type{
+  width: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.type:hover{
+  box-shadow: 0px 0px 20px darkslateblue;
+  transition: 1s;
+  width: 50%;
+  border-radius: 10px;
+}
+</style>
+<br><br><br><br><br><br><br><br><br>
+  

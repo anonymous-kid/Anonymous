@@ -1,0 +1,31 @@
+*{  
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+.chats{
+    background-color: darkslategray;
+
+}
+.sidebar2 ul{
+    padding: 0px;
+    padding-left: 15px;
+}
+.chats h3{
+    color: white;
+    
+}
+.chats ul li{
+    float: left;
+    list-style: none;
+    width: 5%;
+}
+.chats ul li a{
+    text-decoration: none;
+    color: white;
+}
+.chats ul .left{
+    margin: 5%;
+}

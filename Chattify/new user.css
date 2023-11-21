@@ -1,0 +1,518 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: rgb(58, 56, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   
+}
+
+.head{
+    float: left; 
+   padding-left: 2%;
+}
+.head .chair{
+   float: left;
+   
+}
+.form .chats{
+    width: 70%;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+  
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 9px;
+    border: none;
+    border-bottom: 3px solid darkslateblue;
+}
+.form .chat{
+    width: 25%;
+    background-color: whitesmoke;
+    height: 40px;
+    color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 19px;
+    border: none;
+    border-bottom: 3px solid darkslateblue;
+}
+.form .chat option{
+    width: 40px;
+    height: 40px;
+}
+.head{
+    left: 0;
+    top: 0;
+    
+    height: 100%;
+    width: 500px;
+    background-color: rgb(20, 20, 20);
+
+}
+.lego{
+    margin-left: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+hr{
+    width: 80%;
+}
+span{
+    color: gray;
+}
+.head{
+    overflow-y: scroll;
+}
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+.contact img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.contact h4{
+    padding-top: 1px;
+    padding-left: 70px;
+}
+
+.choke a{
+    text-decoration: none;
+    color: white;
+}
+.choke .contact span{
+    text-decoration-color: transparent;
+}
+.choke a:hover{
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: rgb(58, 56, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   ; 
+    
+    ;
+    
+   
+}
+
+.head{
+    float: left; 
+   padding-left: 2%;
+   
+}
+.head .chair{
+   float: left;
+   
+}
+.form .chats{
+    width: 70%;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+  
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 9px;
+    border: none;
+    border-bottom: 2px solid lightgreen;
+}
+.form .chat{
+    width: 25%;
+    background-color: whitesmoke;
+    height: 40px;
+    color: black;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 19px;
+    border: none;
+    border-bottom: 2px solid lightgreen;
+}
+.form .chat option{
+    width: 40px;
+    height: 40px;
+}
+.head{
+    left: 0;
+    top: 0;
+    margin-left: 8%;
+    position: fixed;
+    height: 100%;
+    width: 515px;
+    background-color: rgb(20, 20, 20);
+}
+.chat-mate{
+    background-color: gray;
+    padding: 7px;
+    padding-bottom: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin-left: 46%;
+}
+.chat-mate img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+   
+}
+.chat-mate h4{
+    float: left;
+}
+hr{
+    width: 80%;
+}
+span{
+    color: gray;
+}
+.contact img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 8px;
+    
+}
+.contact h4{
+    padding-top: 1px;
+    padding-left: 70px;
+}
+.contact{
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+    width: 95%;
+    margin-top: 20px;
+}
+.contact:hover{
+    background-color: rgb(51, 46, 46);
+}
+.choke a{
+    text-decoration: none;
+    color: white;
+}
+.choke .contact span{
+    text-decoration-color: transparent;
+}
+.mainbody{
+    
+    
+    
+    padding-left: 50%;
+    padding-right: 2%;
+}
+.mom{
+    visibility: hidden;
+    font-weight: lighter;
+}
+.contact:hover .mom{
+    visibility: visible;
+    transition: 1s;
+}
+.mainbody h1{
+    text-align: center;
+    font-size: 40px;
+}
+.mainbody p{
+    font-size: 15px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 25px;
+    float: left;
+    color: black;
+    border-radius:  0px 50px 50px 50px;
+}
+.sidebar2{
+    background-color: darkslategray;
+    color: white;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 120px;
+   padding-top: 0%;
+}
+.sidebar2 li {
+    list-style: none;
+    
+}
+.sidebar2 img{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.sticky{
+    position: sticky;
+}
+.sidebar2 img:hover{
+    border: 4px solid gray
+}
+.kind{
+    font-size: 15px;
+    background-color: darkslateblue;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
+    float: right;
+    color: white;
+    border-radius: 30px 30px 0px 30px;
+    font-weight: lighter;
+}
+#kind2{
+    font-size: 15px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 20px;
+    float: left;
+    color: black;
+    border-radius: 0px 30px 30px 30px;
+}
+.sidebar2 ul{
+    
+    margin-top: 0%;
+    padding: 0px;
+    padding-left: 45px;
+}
+.sidebar2 ul li{
+    list-style: none;
+    width: 20%;
+}
+.sidebar2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2px;
+    left: 0;
+}
+.keyboards form .keyboard-main{
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-right: 10px;
+    background-color:darkslategray;
+    padding-left: 10px;
+    color: white;
+    
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: darkslateblue;
+}
+
+.keyboard h4{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.keyboards{
+    background-color: darkslategray;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 600px;
+    margin-left: 6%;
+}
+
+.sender{
+    background-color: transparent;
+    height: 50px;
+    width: 80px;
+    border-bottom: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sender a{
+    text-decoration: none;
+}
+
+.sidebar2{
+    background-color: darkslategray;
+    color: white;
+    height: 100%;
+    position: fixed;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 120px;
+   
+}
+.sidebar2 ul li{
+    list-style: none;
+    width: 30%;
+}
+.sidebar2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2px;
+    left: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.help{
+    border-radius: 50% 0px 50% 50%;
+    background-color: white;
+    color:darkslategrey;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    width: 15%;
+    height: 40px;
+    padding-top: 13px;
+    font-weight: bold;
+   
+}
+.clap{
+    background-color: gold;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    margin-left: 52.5%;
+    animation-name: goldSpinner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes goldSpinner{
+    50%{transform: rotate(360deg);}
+    55%{transform: translate(80px);}
+    }
+
+.messages{
+    animation-name: chattifyAni;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.clap2{
+    background-color: red;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    animation-name: clap2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    float: left;
+    opacity: 0.5;
+}
+@keyframes clap2{
+    0%{transform: rotate(360deg);}
+}
+
+.clap3{
+    animation-name: circle;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    background-color: darkslateblue;
+    border: 5px solid darkslateblue;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float: left;
+}
+@keyframes circle{
+    50%{transform: translate(500px);}
+    }
+.clap4{
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+@keyframes animation{
+    50%{transform: rotate(180deg);}
+    55%{margin-top: 200px;}
+}
+.rotate{
+    background-color: orange;
+    border-radius: 40%;
+    height: 45px;
+    width: 45px;
+    margin-left: 85%;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate{
+    40%{transform: rotate(360deg);}
+    50%{margin-top: 50px}
+    60%{background-color: #f9004d;}
+    70%{background-color: peru;}
+    80%{background-color: rebeccapurple;}
+    90%{background-color: salmon;}
+    100%{background: seagreen;}
+}
+.keyboard{
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 46%;
+    justify-content: center;
+    text-align: center;
+}
+.loading{
+    background-color: darkslategray;
+    height: 10px;
+    width: 100px;
+     border-radius: 10px;
+     margin-left: 40%;
+}
+.load{
+    background-color: darkgray;
+    height: 10px;
+    width: 5px;
+    border-radius: 10px;
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes slide{
+    20%{background-color: gold; width: 100px;}
+    40%{background-color: green; }
+    60%{background-color: orange; }
+    80%{background-color: purple; }
+    100%{background-color: orangered; }
+}
+

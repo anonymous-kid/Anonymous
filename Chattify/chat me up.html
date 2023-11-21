@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chattify</title>
+    <link rel="stylesheet" href="chat me up.css">
+</head>
+
+<body>
+    <div class="chat">
+        
+       
+<form action="next.html">
+    <input class="me-up1" type="text"  placeholder="First Name" required>&nbsp;&nbsp;&nbsp;&nbsp;<input class="me-up1" type="text"  placeholder="Last Name" required><br><br>
+    
+    <input class="me-up" type="text"   placeholder="Username" required><br><br>
+    <input class="me-up1" type="password" id="pass"  min="6" maxlength="8" placeholder="Password" required>&nbsp;&nbsp;&nbsp;&nbsp;<input class="me-up1" type="password" id="confirm_pass"  min="6" maxlength="8" placeholder="Confirm Password" onkeyup="validate_password()" required><br><br>
+    <span id="wrong_pass_alert"></span><br><br>
+    <input id="demo" class="up-me" type="submit" value="NEXT" id="create" onclick="wrong_pass_alert()" >
+    <br><br><input type="checkbox" required> I have read, understood, and agreed to <a style="color: white; text-decoration: underline;" href="#">Terms <br> and Conditions</a> & <a style="color: white; text-decoration: underline;" href="#">Privacy Policy</a><br><br><br>
+  
+    <p>Already have an account? <b><a style="color: white; text-decoration: underline;" href="login.html">Log in</a></b>.</p>
+    
+</form>
+</div>
+<div class="name">
+    <h1><u style="text-decoration-color: darkslateblue;">Chat</u>tify</h1>
+    <p>We are Different, We Make You Different.</p>
+</div>
+
+
+<script>
+    function validate_password() {
+
+        var pass = document.getElementById('pass').value;
+        var confirm_pass = document.getElementById('confirm_pass').value;
+        if (pass != confirm_pass) {
+            document.getElementById('wrong_pass_alert').style.color = 'red';
+            document.getElementById('wrong_pass_alert').innerHTML
+              = '☒ Use same password';
+            document.getElementById('create').disabled = true;
+            document.getElementById('create').style.opacity = (0.4);
+        } else {
+            document.getElementById('wrong_pass_alert').style.color = 'green';
+            document.getElementById('wrong_pass_alert').innerHTML =
+                '🗹 Password Matched';
+            document.getElementById('create').disabled = false;
+            document.getElementById('create').style.opacity = (1);
+        }
+    }
+
+    function wrong_pass_alert() {
+        if (document.getElementById('pass').value != "" &&
+            document.getElementById('confirm_pass').value != "") {
+        } else {
+            alert("Please fill all the fields");
+        }
+    }
+</script>
+</div>
+</body>
+</html>

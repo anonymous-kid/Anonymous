@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .nav-bar ul li{
+        float: left;
+        width: 10%;
+        list-style: none;
+        padding-top: 30px;
+    }
+    .nav-bar ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    .add{
+        padding-right: 100px;
+    }
+    .nav-bar h1{
+        float: left;
+        margin-right: 30%;
+        margin-left: 3%;
+    }
+    .nav-bar nav{
+        background-color: gray;
+    }
+</style>
+<body id="demo">
+    <div class="nav-bar">
+        
+        <nav>
+            <h1>Chattify</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </nav>
+   
+        <button type="button" onclick="myFunction()">&#9788;</button>
+
+        <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            x.style.backgroundColor = "black";           
+            x.style.color = "white"; 
+        x.style.fontFamily="sans-serif";
+        }
+        </script>
+        <form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+            Name: <input type="number" name="fname" required>
+            <input type="submit" value="Submit">
+            </form>
+<script>
+    function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == null || x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+<input id="id1" type="number" min="100" max="300">
+<button onclick="myFunction()">OK</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var inpObj = document.getElementById("id1");
+    if (inpObj.checkValidity() == false) {
+        document.getElementById("demo").innerHTML = inpObj.validationMessage;
+    }
+}
+</script>
+<input id="id1" type="number" max="100">
+<button onclick="myFunction()">OK</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var txt = "";
+    if (document.getElementById("id1").validity.rangeOverflow) {
+       txt = "Value too large";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+<button type="button" onclick="myJob()">Hello</button>
+<script>
+    function myJob(){
+        var x="document.getElementById('demo').innerHTML='Welcome to Prosirm Computers'";
+        var x="document.getElementById('demo').style.backgroundColor="lightgreen"
+    
+    }
+</script>
+<style>
+    .toolpit p{
+        font-family: sans-serif;
+        color: black;
+        border-bottom: 1px dotted blue;
+        width: 3%;
+    }
+    .toolpit-text{
+        background-color: black;
+        color: white;
+       
+        border-radius: 10px;
+        visibility: hidden;
+        width: 15%;
+        height: 25px;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+    }
+    .toolpit p:hover .toolpit-text{
+        visibility: visible;
+
+    }
+    .toolpit .toolpit-text::after{
+        border-style: solid;
+        background-color: black transparent transparent transparent;
+    }
+</style>
+<p id="demo"></p>
+<div >
+    <div class="toolpit-text">Tollpit text</div>
+    <p class="toolpit">Hello</p>
+    
+</div>
+</body>
+</html>

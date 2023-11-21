@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sidebar2{
+    background-color: darkslategray;
+    color: white;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+    float: left;
+    left: 0;
+    top: 0;
+    width: 120px;
+   padding-top: 0%;
+}
+.sidebar2 li {
+    list-style: none;
+    
+}
+.sidebar2 img{
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.sticky{
+    position: sticky;
+}
+.sidebar2 img:hover{
+    border: 4px solid gray
+}
+.sidebar2 ul{
+    
+    margin-top: 0%;
+    padding: 0px;
+    padding-left: 45px;
+}
+.sidebar2 ul li{
+    list-style: none;
+    width: 20%;
+}
+.sidebar2 ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2px;
+    left: 0;
+}
+.head{
+    margin-left: 10%;
+}
+.head h1{
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+}
+.head span{
+    text-align: center;
+    margin-left: 31.5%;
+    text-decoration: none;
+}
+.content{
+    margin: auto;
+    width: 60%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 800px;
+    padding: 20px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: white;
+
+}
+::-webkit-scrollbar-thumb{
+    background-color: darkslateblue;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(56, 48, 107);
+}
